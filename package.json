@@ -31,6 +31,10 @@
   ],
   "author": "Lukas M. Beck <lb@unitgreen.com>",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LBeckX/amazon-affiliate-link-generator/issues"
+  },
+  "homepage": "https://github.com/LBeckX/amazon-affiliate-link-generator#readme",
   "devDependencies": {
     "@types/node": "^22.2.0",
     "tsup": "^8.2.4",
