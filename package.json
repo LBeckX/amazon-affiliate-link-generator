@@ -1,0 +1,40 @@
+{
+  "name": "amazon-affiliate-link-generator",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Generate amazon affiliate links by the product url",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsup",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "amazon",
+    "link",
+    "affiliate",
+    "link",
+    "generator",
+    "generator",
+    "automation"
+  ],
+  "author": "Lukas M. Beck <lb@unitgreen.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.2.0",
+    "tsup": "^8.2.4",
+    "tsx": "^4.17.0",
+    "typescript": "^5.5.4"
+  }
+}
