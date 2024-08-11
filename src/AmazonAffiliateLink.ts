@@ -11,7 +11,7 @@ export class AmazonAffiliateLink {
         const url = new URL(productLink)
         const asinMatch = productLink.match(/\/dp\/([A-Z0-9]{10})/i)
 
-        if (!asinMatch) {
+        if (!asinMatch || !asinMatch[1]) {
             throw new Error('Not a product link')
         }
 
